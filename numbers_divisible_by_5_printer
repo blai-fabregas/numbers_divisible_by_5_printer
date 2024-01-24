@@ -1,0 +1,11 @@
+# defining a function : to display nos. divisible by 5
+def display_divisible_by_5 (numberList):
+    for number in numberList:
+        if number % 5 == 0:
+            print (number)
+
+# creating a list of numbers
+numbers = [12, 34, 78, 96, 5]
+
+# result
+display_divisible_by_5(numbers)
